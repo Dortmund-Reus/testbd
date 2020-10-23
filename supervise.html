@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>资源监控</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="bodystyle">
+      <div class = "main_body">
+        <h1>2 column layout example</h1>
+        <div class = "left">
+          <div class = "para">
+            <!-- <p>设备管理客户端ID: 1</p>
+            <p>设备ID: pi-1</p>
+            <p>设备状态: 空闲</p> -->
+          </div>
+          <div class = "button" id = "supervise"><button>资源监控</button></div>
+          <div class = "button" id = "upload"><button>上传文件</button></div>
+          <div class = "button" id = "burning"><button>开始烧写</button></div>
+        </div>
+        <div class = "right resource">
+            <div class = "resource_circle">
+                <div></div>
+                <p>CPU</p>
+            </div>
+            
+            <div class = "resource_circle">
+                <p>Memory</p>
+            </div>
+            <div class = "resource_circle">
+                <p>Net Inboud</p>
+            </div>
+            <div class = "resource_circle">
+                <p>Net Outboud</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 下面这个是菜单 -->
+    <div id="supermenu" style="display: none;">
+      <ul>
+        <li><a id = "logMenu">查看日志</a></li>
+        <li><a href="#">更换设备</a></li>
+        <li><a href="#">删除设备</a></li>
+      </ul>
+    </div>
+    <script src="supervise.js"></script>
+  </body>
+</html>

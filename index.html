@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>边缘设备</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="bodystyle">
+      <div class = "main_body">
+        <h1>2 column layout example</h1>
+        <div class = "left">
+          <div class = "para">
+            <!-- <p>设备管理客户端ID: 1</p>
+            <p>设备ID: pi-1</p>
+            <p>设备状态: 空闲</p> -->
+          </div>
+          <div class = "button" id = "supervise"><button>资源监控</button></div>
+          <div class = "button" id = "upload"><button>上传文件</button></div>
+          <div class = "button" id = "burning"><button>开始烧写</button></div>
+        </div>
+        <div class = "right">
+          <!-- <h2>拓扑图</h2> -->
+          <div class = "layer">
+            <!-- <h2>layer1</h2> -->
+            <div class = "cloud"></div>
+          </div>
+          <div class = "layer" id = "layer2">
+            <!-- <h2>layer2</h2> -->
+            <div>
+              <div class = "pi menu"></div>
+              <p>client-id1</p>
+            </div>
+            <div>
+              <div class = "pi menu"></div>
+              <p>client-id2</p>
+            </div>
+          </div>
+          <div class = "layer" id = "layer3">
+            <!-- <h2>layer3</h2> -->
+            <div>
+              <div class = "connect"></div>
+              <p>&nbsp;</p>
+            </div>
+            <div>
+              <div class = "connect"></div>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+          <div class = "layer" id = "layer4">
+          </div>
+          <div class = "status">
+            <p>设备空闲</p>
+            <p>设备占用</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 下面这个是菜单 -->
+    <div id="supermenu" style="display: none;">
+      <ul>
+        <li><a id = "logMenu">查看日志</a></li>
+        <li><a href="#">更换设备</a></li>
+        <li><a href="#">删除设备</a></li>
+      </ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
