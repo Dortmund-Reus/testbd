@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T02:17:41.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36 Edg/91.0.864.53" etag="oK9gXNkBwV1es1EexyCi" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-02T02:19:12.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36 Edg/91.0.864.53" etag="z19VJaevlYwoFKuH9HCc" version="14.8.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1298" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,8 +23,8 @@
         <mxCell id="cVRdGZ0bKBzFC-XaW8SG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cVRdGZ0bKBzFC-XaW8SG-3" target="cVRdGZ0bKBzFC-XaW8SG-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cVRdGZ0bKBzFC-XaW8SG-3" value="查询当前用户权限下的可用设备，优先选择对用户权限要求最高的设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="320" width="240" height="60" as="geometry" />
+        <mxCell id="cVRdGZ0bKBzFC-XaW8SG-3" value="查询当前用户可用的权限最高的设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="320" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cVRdGZ0bKBzFC-XaW8SG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cVRdGZ0bKBzFC-XaW8SG-5" target="cVRdGZ0bKBzFC-XaW8SG-6">
           <mxGeometry relative="1" as="geometry" />
